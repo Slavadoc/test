@@ -11,7 +11,7 @@
 2.	Проверочный примеры
 3.  Резултаты тестов
 4.	пример сортировки на C#
-5.	пример сортировки на 
+5.	Пример сортировки на Python
 
 ### Схема алгоритм работы
 ![](/img/diagr.png)
@@ -63,4 +63,11 @@
             count += 1;
         }
 
-### Пример сортировки на
+### Пример сортировки на Python
+
+    def SortArray(_array):
+        newArray = []
+        for i in range(len(_array)):
+            if (len(_array[i]) <= 3):
+                newArray.append(_array[i])
+         return _newArray
